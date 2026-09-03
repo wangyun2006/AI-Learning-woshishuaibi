@@ -4,8 +4,8 @@ body.community-layout-active { background: radial-gradient(circle at 92% 4%, rgb
 .community-shell.sidebar-collapsed { --amc-sidebar-width: 76px; max-width: 1334px; }
 .community-shell.community-wide { grid-template-columns: var(--amc-sidebar-width) minmax(0, 1fr); }
 .community-shell.community-wide.sidebar-collapsed { max-width: var(--amc-shell-max); }
-.community-main { height: 100%; min-width: 0; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior-y: contain; scrollbar-width: thin; scrollbar-gutter: stable; scroll-padding-top: 126px; overflow-anchor: none; }
-.community-wide .community-main { background: var(--amc-bg-page); }
+.community-main { height: 100%; min-width: 0; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior-y: contain; scrollbar-width: thin; scrollbar-gutter: stable; scroll-padding-top: 126px; overflow-anchor: none; background: #f5f0e8; }
+.community-wide .community-main { background: #f5f0e8; }
 .community-wide .page-container, .community-wide .community-main > section:not(.page-container) { width: min(calc(100% - 48px), 1180px); margin-inline: auto; padding-block: 28px 56px; }
 .community-wide .community-main { container-type: inline-size; }
 .community-main .page-container h1 { font-size: var(--amc-font-page-title); line-height: 1.25; font-weight: 700; }

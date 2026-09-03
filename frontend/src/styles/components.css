@@ -10,6 +10,7 @@
 .icon-button.active { color: var(--brand); border-color: #ffc4b2; background: var(--brand-soft); }
 .community-avatar { position: relative; display: inline-grid; place-items: center; width: 44px; height: 44px; flex-shrink: 0; color: var(--amc-surface); background: linear-gradient(145deg, var(--amc-purple), color-mix(in srgb, var(--amc-purple) 50%, var(--amc-surface))); border-radius: 50%; font-weight: 700; vertical-align: middle; }
 .community-avatar > img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; background: var(--amc-bg-soft); }
+.community-avatar > svg { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; padding: 12%; }
 .community-avatar.avatar-xs { width: 28px; height: 28px; font-size: 12px; }
 .community-avatar.avatar-sm { width: 36px; height: 36px; font-size: 14px; }
 .community-avatar.avatar-lg { width: 72px; height: 72px; font-size: 28px; }

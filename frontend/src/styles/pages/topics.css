@@ -35,3 +35,22 @@
 .mini-achievements span { display: flex; align-items: center; gap: 8px; color: var(--secondary); font-size: .75rem; }
 .mini-achievements strong { display: grid; place-items: center; width: 30px; height: 30px; color: #6a4ce8; background: #eeeaff; border-radius: 8px; }
 .recommendation-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.filter-panel { background: #2a2a2a; border-color: #2a2a2a; color: #d8d8d8; }
+.filter-panel .panel-title { color: #d8d8d8; }
+.filter-panel .panel-title strong { color: #e5e5e5; }
+.filter-panel .panel-title button { color: #7fc8ff; }
+.filter-panel label { color: #c8c8c8; }
+.filter-panel select { background: #3a3a3a; color: #e5e5e5; border-color: #4a4a4a; }
+.filter-panel select option { background: #3a3a3a; color: #e5e5e5; }
+.learning-path { background: #2a2a2a; border-color: #2a2a2a; }
+.learning-path .section-heading h2 { color: #e5e5e5; }
+.learning-path .section-heading span { color: #a8a8a8; }
+.learning-path .section-heading a { color: #7fc8ff; }
+.path-steps > div { border-color: #4a4a4a; }
+.path-steps > div > strong { color: #e5e5e5; }
+.path-steps > div > small { color: #a8a8a8; }
+.path-steps span { color: #a8a8a8; }
+.path-steps > div > .app-icon { color: #a78bfa; }
+.path-steps .done, .path-steps .current { border-color: #7fc8ff; }
+.path-steps .done span, .path-steps .current span { color: #7fc8ff; }
+.hero-badge { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 14px; padding: 8px 22px; border: 1px solid var(--amc-orange); border-radius: 999px; background: var(--amc-orange); color: #ffffff; font-size: 13px; font-weight: 600; white-space: nowrap; }

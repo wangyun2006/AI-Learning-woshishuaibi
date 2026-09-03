@@ -45,3 +45,18 @@
 .composer-tool-panel > label { display: grid; gap: 8px; }
 .composer-tool-panel p { margin: 0; }
 .composer-mobile-top { display: none; }
+.community-quick-composer { background: #2a2a2a; border-color: #2a2a2a; }
+.community-quick-composer.quick-active { background: #2a2a2a; }
+.community-quick-composer.quick-dialog { background: #2a2a2a; }
+.community-quick-composer .quick-prompt { color: #cfcfcf; }
+.community-quick-composer .quick-types > button, .community-quick-composer .quick-types .community-menu-trigger { color: #d8d8d8; }
+.community-quick-composer .quick-types > button:hover { background: rgba(255, 255, 255, .12); }
+.community-quick-composer .quick-editor > textarea { color: #e5e5e5; }
+.community-quick-composer .quick-editor > textarea::placeholder, .community-quick-composer .quick-prompt > span:last-child::placeholder { color: #8f8f8f; }
+.community-quick-composer .quick-editor > label { color: #d8d8d8; }
+.community-quick-composer .quick-editor input, .community-quick-composer .quick-editor select, .community-quick-composer .quick-editor textarea { color: #e5e5e5; background: #3a3a3a; border-color: #4a4a4a; }
+.community-quick-composer .quick-save-state { color: #a8a8a8; }
+.community-quick-composer .quick-editor-heading .icon-button { color: #d8d8d8; border-color: #4a4a4a; background: #3a3a3a; }
+.community-quick-composer .composer-tool-panel { border-color: #4a4a4a; color: #d8d8d8; }
+.community-quick-composer .composer-tool-panel > label, .community-quick-composer .composer-tool-panel p { color: #d8d8d8; }
+.community-quick-composer .composer-privacy { background: #333333; color: #c8c8c8; }
